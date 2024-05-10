@@ -64,16 +64,16 @@ int main() {
 		cin >> choice;
 
 
-			switch (choise) {
+			switch (choice) {
 
 			case 1:
 				cout << "Enter the value tio push: ";
 				cin >> value;
-				stack.Push(value);
+				stack.push(value);
 				break;
 			case 2:
 				if (!stack.isEmpty()) {
-					stack.pop();
+					stack.Pop();
 				}
 				else {
 					cout << "Stack is empty. Cannot pop." << endl;
@@ -102,4 +102,5 @@ int main() {
 	return 0;
 
 }
+
 
