@@ -30,6 +30,15 @@ public:
 		cout << "push value: " << value << endl;
 		return value;
 	}
+
+	void pop() {
+		if (isEmpty()) {
+			cout << "Stack is empty." << endl;
+		}
+		cout << "Popped value: " << top->data << endl;
+		top = top->next;
+
+	}
 	void peek() {
 		if (top == NULL) {
 			cout << "List is empty." << endl;
@@ -73,7 +82,7 @@ int main() {
 				break;
 			case 2:
 				if (!stack.isEmpty()) {
-					stack.Pop();
+					stack.pop();
 				}
 				else {
 					cout << "Stack is empty. Cannot pop." << endl;
