@@ -65,6 +65,12 @@ int main() {
 
 
 			switch (choise) {
+			
+			case 1:
+				cout << "Enter the value tio push: ";
+				cin >> value;
+				stack.Push(value);
+				break;
 
 		}
 
