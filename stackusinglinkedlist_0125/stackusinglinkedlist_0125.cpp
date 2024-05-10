@@ -61,7 +61,7 @@ int main() {
 		cout << "3. Peek\n";
 		cout << "4. Exit\n";
 		cout << "Enter your choice: ";
-		cin >> choice
+		cin >> choice;
 
 
 			switch (choise) {
@@ -89,7 +89,17 @@ int main() {
 				}
 				break;
 
-
-
+			case 4:
+				cout << "Exiting program." << endl;
+				break;
+			default:
+				cout << "Invalid choice. Try again." << endl;
+				break;
 			}
+		cout << endl;
+	}
+
+	return 0;
+
+}
 
