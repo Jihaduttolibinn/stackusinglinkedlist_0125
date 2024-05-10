@@ -64,6 +64,10 @@ int main() {
 		cin >> choice
 
 
+			switch (choise) {
+
+		}
+
 
 	}
 
